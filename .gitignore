@@ -1,0 +1,21 @@
+# 忽略构建文件夹
+build/
+
+# 忽略 CMake 临时和缓存文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 忽略编译产生的执行文件
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# 忽略编辑器和系统生成的文件
+.DS_Store
+.vscode/
+*.swp
+*~
